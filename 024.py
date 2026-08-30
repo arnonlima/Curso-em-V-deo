@@ -1,7 +1,7 @@
 #Crie um programa que leia o nome de uma cidade diga
 #  se ela começa ou não com o nome "SANTO"
 
-cidade=str(input('Digite o nome de uma cidade: ')).strip()
+cidade=str(input('Digite o nome de uma cidade: ')).strip() #strip() remove espaços em branco no início e no final da string
 print(cidade[:5].upper() == 'SANTO')
 
 
