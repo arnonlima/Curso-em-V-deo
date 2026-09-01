@@ -1,6 +1,11 @@
+#Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80Km/h,
+#  mostre uma mensagem dizendo que ele foi multado. A multa vai custar R$7,00 por 
+# cada Km acima do limite.
+
+
 print('Limite de velocidade')
 while True:
- n=int(input('Diga a velocidade: 0 para sair: '))
+ n=int(input('Diga a velocidade:  ou 0 para sair: '))
  if n ==0:
   break
  elif n>80:
